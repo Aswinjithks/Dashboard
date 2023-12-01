@@ -1,10 +1,9 @@
 import React from "react";
 
-
-const Dashboardhead = () => {
+const Subnav = () => {
   return (
     <div className="bg-gray-100">
-      <div className="p-8">
+      <div className="p-3">
         <div className="flex flex-row justify-between p-5">
           <div>
             <h2 className="text-2xl font-semibold">Thursday, 21 May</h2>
@@ -18,10 +17,9 @@ const Dashboardhead = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-row space-x-6 center">Dashboard</div>
       </div>
     </div>
   );
 };
 
-export default Dashboardhead;
+export default Subnav;
