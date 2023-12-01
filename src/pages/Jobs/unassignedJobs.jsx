@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../Card";
-import Cardtop from "../Cardtop";
+import Card from "../../components/Card";
+import Cardtop from "../../components/Cardtop";
 
 const UnassignedJobs = () => {
   return (

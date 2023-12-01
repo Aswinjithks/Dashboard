@@ -1,8 +1,7 @@
 import React from "react";
-import Header from "./header";
-import AssignedJobs from "./Jobs/assignedJobs";
-import FinishedJobs from "./Jobs/finishedJobs";
-import UnassignedJobs from "./Jobs/unassignedJobs";
+import AssignedJobs from "./assignedJobs";
+import FinishedJobs from "./finishedJobs";
+import UnassignedJobs from "./unassignedJobs";
 
 const Jobs = () => {
   return (

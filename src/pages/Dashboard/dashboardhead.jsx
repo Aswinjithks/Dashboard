@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "./header";
 
-const Dashboard = () => {
+
+const Dashboardhead = () => {
   return (
     <div className="bg-gray-100">
       <div className="p-8">
@@ -24,4 +24,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default Dashboardhead;

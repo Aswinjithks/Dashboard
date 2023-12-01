@@ -45,7 +45,11 @@ const Header = () => {
           </ul>
         </nav>
         <div className="flex flex-row items-center">
-        <img class="w-10 h-10 rounded-full" src="https://images.vexels.com/content/145908/preview/male-avatar-maker-2a7919.png" alt="Rounded avatar"/>
+          <img
+            class="w-10 h-10 rounded-full"
+            src="https://images.vexels.com/content/145908/preview/male-avatar-maker-2a7919.png"
+            alt="Rounded avatar"
+          />
         </div>
       </div>
     </header>
