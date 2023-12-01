@@ -9,16 +9,15 @@ const JobsAssigned = () => {
     datasets: [
       {
         data: [percentage, 100 - percentage],
-        backgroundColor: ["bg-blue-500", "bg-gray-300"], // Blue color
+        backgroundColor: ["bg-blue-500", "bg-gray-300"], 
         hoverBackgroundColor: ["hover:bg-blue-600", "hover:bg-gray-400"],
         borderWidth: 0,
       },
     ],
   };
 
-  // Options for the chart
   const options = {
-    cutoutPercentage: 80, // Adjust this value to control the size of the hole in the donut
+    cutoutPercentage: 80,
     rotation: -0.5 * Math.PI,
     circumference: 2 * Math.PI,
     tooltips: {
